@@ -1,0 +1,16 @@
+C:\Users\Jose Aguilar\source\repos\ExamenIIIParcial\ExamenIIIParcial\ExamenIIIParcial\bin\Debug\netstandard2.0\ExamenIIIParcial.deps.json
+C:\Users\Jose Aguilar\source\repos\ExamenIIIParcial\ExamenIIIParcial\ExamenIIIParcial\bin\Debug\netstandard2.0\ExamenIIIParcial.dll
+C:\Users\Jose Aguilar\source\repos\ExamenIIIParcial\ExamenIIIParcial\ExamenIIIParcial\bin\Debug\netstandard2.0\ref\ExamenIIIParcial.dll
+C:\Users\Jose Aguilar\source\repos\ExamenIIIParcial\ExamenIIIParcial\ExamenIIIParcial\bin\Debug\netstandard2.0\ExamenIIIParcial.pdb
+C:\Users\Jose Aguilar\source\repos\ExamenIIIParcial\ExamenIIIParcial\ExamenIIIParcial\obj\Debug\netstandard2.0\ExamenIIIParcial.csproj.AssemblyReference.cache
+C:\Users\Jose Aguilar\source\repos\ExamenIIIParcial\ExamenIIIParcial\ExamenIIIParcial\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Jose Aguilar\source\repos\ExamenIIIParcial\ExamenIIIParcial\ExamenIIIParcial\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Jose Aguilar\source\repos\ExamenIIIParcial\ExamenIIIParcial\ExamenIIIParcial\obj\Debug\netstandard2.0\ExamenIIIParcial.AssemblyInfoInputs.cache
+C:\Users\Jose Aguilar\source\repos\ExamenIIIParcial\ExamenIIIParcial\ExamenIIIParcial\obj\Debug\netstandard2.0\ExamenIIIParcial.AssemblyInfo.cs
+C:\Users\Jose Aguilar\source\repos\ExamenIIIParcial\ExamenIIIParcial\ExamenIIIParcial\obj\Debug\netstandard2.0\ExamenIIIParcial.csproj.CoreCompileInputs.cache
+C:\Users\Jose Aguilar\source\repos\ExamenIIIParcial\ExamenIIIParcial\ExamenIIIParcial\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Jose Aguilar\source\repos\ExamenIIIParcial\ExamenIIIParcial\ExamenIIIParcial\obj\Debug\netstandard2.0\ExamenIIIParcial.dll
+C:\Users\Jose Aguilar\source\repos\ExamenIIIParcial\ExamenIIIParcial\ExamenIIIParcial\obj\Debug\netstandard2.0\ref\ExamenIIIParcial.dll
+C:\Users\Jose Aguilar\source\repos\ExamenIIIParcial\ExamenIIIParcial\ExamenIIIParcial\obj\Debug\netstandard2.0\ExamenIIIParcial.pdb
+C:\Users\Jose Aguilar\source\repos\ExamenIIIParcial\ExamenIIIParcial\ExamenIIIParcial\obj\Debug\netstandard2.0\View\PagoPage.xaml.g.cs
+C:\Users\Jose Aguilar\source\repos\ExamenIIIParcial\ExamenIIIParcial\ExamenIIIParcial\obj\Debug\netstandard2.0\View\DetallePage.xaml.g.cs

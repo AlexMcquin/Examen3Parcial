@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" xmlns:viewmodel="clr-namespace:ExamenIIIParcial.ViewModel" x:DataType="viewmodel:PagoViewModel"
+             x:Class="ExamenIIIParcial.View.PagoPage">
+    <ScrollView>
+        <StackLayout Background="White">
+
+            <Frame BackgroundColor="#2196F3" Padding="24" CornerRadius="0">
+                <Label Text="Registrar Pagos" HorizontalTextAlignment="Center" TextColor="White" FontSize="36"/>
+            </Frame>
+            
+            <Label Text="ID" TextColor="Black"></Label>
+            <Label Text="{Binding Id}" TextColor="Black"></Label>
+            <Label Text="Descripcion" TextColor="Black"></Label>
+            <Entry Text="{Binding Descripcion}" TextColor="Black"></Entry>
+            <Label Text="Monto" TextColor="Black"></Label>
+            <Entry Text="{Binding Monto}" Keyboard="Numeric" TextColor="Black"></Entry>
+            <Label Text="Fecha" TextColor="Black"></Label>
+            <Entry Text="{Binding Fecha}" TextColor="Black"></Entry>
+
+            <Frame Visual="Material" Padding="10" CornerRadius="10" HasShadow="True" BackgroundColor="Gray">
+                <StackLayout Margin="10,10,10,10">
+
+                    <Image  HeightRequest="200" Visual="Material"  x:Name="image"></Image>
+
+                </StackLayout>
+
+            </Frame>
+            <Frame Padding="10" Visual="Material" CornerRadius="10" HasShadow="True" BackgroundColor="Gray">
+                <Grid HorizontalOptions="CenterAndExpand">
+                    <StackLayout Orientation="Horizontal" Margin="10,10,10,10">
+                        <Button Visual="Material" TextColor="White" BackgroundColor="Black"  x:Name="enviarInfo" Padding="10,10,10,10"  Text="Tomar Foto"></Button>
+
+                        <Button  Grid.Row="0" Grid.Column="0" TextColor="White" Text="Guardar ApiRest" BackgroundColor="Black" x:Name="Guardar" IsEnabled="False"  ></Button>
+
+
+                    </StackLayout>
+                </Grid>
+
+            </Frame>
+
+
+            <Label Text="{Binding Descripcion}" TextColor="DarkBlue"></Label>
+            <Button Text="Guardar" Command="{Binding GuardarCommand}" BackgroundColor="Green"></Button>
+            <Button Text="Modificar" Command="{Binding ModificarCommand}" BackgroundColor="Orange"></Button>
+            <Button Text="Eliminar" Command="{Binding EliminarCommand}" BackgroundColor="Red"></Button>
+            <Button Text="Limpiar" Command="{Binding LimpiarCommand}" BackgroundColor="Blue"></Button>
+            <ActivityIndicator IsRunning="{Binding Isbusy}" IsVisible="{Binding Isbusy}"></ActivityIndicator>
+            <Label Text="Lista:" TextColor="Black"></Label>
+            <ListView x:Name="LvPagos" ItemsSource="{Binding Pagos}" BackgroundColor="Black">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextCell Text="{Binding Monto}" Detail="{Binding Descripcion}" TextColor="White"></TextCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+
+            </ListView>
+
+
+        </StackLayout>
+    </ScrollView>
+</ContentPage>
